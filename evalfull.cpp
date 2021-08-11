@@ -14,6 +14,50 @@ enum TokenType {LEFT, RIGHT, ADD, SUBTRACT, MULTIPLY,
                 DIVIDE, NUMBER, OTHER};
 TokenType identify(char *t);
 
+double postfix (char *expression[], int numTokens){
+    stack<double> numbers;
+
+    for (int i=0; i<numTokens; i++) {
+        TokenType type = identify(expression[i]);
+        double leftValue, rightValue;
+        switch(type) {
+            case NUMBER:
+                numbers.push( atof(expression[i]) );
+                break;
+            case ADD: case SUBTRACT: case MULTIPLY: case DIVIDE:
+                 rightValue = numbers.top();
+                numbers.pop();
+                 leftValue=numbers.top();
+                numbers.pop();
+
+                if (type == ADD)
+                    numbers.push(leftValue + rightValue);
+                else if (type == SUBTRACT)
+                    numbers.push(leftValue - rightValue);
+                else if (type == MULTIPLY)
+                    numbers.push(leftValue * rightValue);
+                else // type == DIVIDE
+                    numbers.push(leftValue / rightValue);
+
+                break;
+
+            default:
+                throw string("unknown token: ")
+                      + string(expression[i]);
+        }
+    }
+
+
+    if (numbers.empty())
+        throw string("empty stack where one result should be");
+
+    int result = numbers.top();
+    numbers.pop();
+    if (!numbers.empty())
+        throw string("number(s) left on stack at end");
+
+    return result;
+}
 // balanced - returns true only if parentheses are balanced
 // in the expression, where expression is an array of C
 // string tokens like { "(", "4.2", ")" } and numTokens

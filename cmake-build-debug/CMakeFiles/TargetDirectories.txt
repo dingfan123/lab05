@@ -1,0 +1,4 @@
+/Users/xiaohong/CLionProjects/lab05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xiaohong/CLionProjects/lab05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xiaohong/CLionProjects/lab05/cmake-build-debug/CMakeFiles/usestack.dir
+/Users/xiaohong/CLionProjects/lab05/cmake-build-debug/CMakeFiles/evalfull.dir

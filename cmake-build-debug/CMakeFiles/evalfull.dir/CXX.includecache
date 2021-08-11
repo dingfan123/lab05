@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiaohong/CLionProjects/lab05/evalfull.cpp
+cstdlib
+-
+cstdio
+-
+cstring
+-
+iostream
+-
+stack
+-
+string
+-
+
