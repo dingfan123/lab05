@@ -12,13 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e7bf24f-f1d4-4d08-bfad-6e763a54dcb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evalfull" beforeDir="false" afterPath="$PROJECT_DIR$/evalfull" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evalfull.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/evalfull.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usestack" beforeDir="false" afterPath="$PROJECT_DIR$/usestack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usestack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/usestack.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="1e7bf24f-f1d4-4d08-bfad-6e763a54dcb3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628640965053</updated>
-      <workItem from="1628640967099" duration="3949000" />
+      <workItem from="1628640967099" duration="4245000" />
     </task>
     <servers />
   </component>

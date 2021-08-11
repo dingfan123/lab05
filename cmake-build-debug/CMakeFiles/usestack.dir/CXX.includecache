@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaohong/CLionProjects/lab05/intstack.h
-
 /Users/xiaohong/CLionProjects/lab05/usestack.cpp
-intstack.h
-/Users/xiaohong/CLionProjects/lab05/intstack.h
 iostream
 -
 cstdlib

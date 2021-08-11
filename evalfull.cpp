@@ -1,5 +1,5 @@
 // evalfull.cpp - evaluates a fully-parenthesized expression
-// DINGFAN ZHENG 08/07/2021
+// DINGFAN ZHENG, SHIRLEY XIE, 08/07/2021
 
 #include <cstdlib>   // for atof function
 #include <cstdio>    // for sscanf
